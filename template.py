@@ -2,15 +2,15 @@ import os
 from pathlib import Path
 import logging
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
-project_name="first_end-to_end"
+project_name="datascience"
 
 list_of_files=[
     ".github/workflows/.gitkeep",
-    f"src/{project_name}/__int__.py",
-    f"src/{project_name}/components/__int__.py",
-    f"src/{project_name}/utils/__int__.py",     #generic funtionality that we are going to define
+    f"src/{project_name}/__init__.py",
+    f"src/{project_name}/components/__init__.py",
+    f"src/{project_name}/utils/__init__.py",     #generic funtionality that we are going to define
     f"src/{project_name}/utils/common.py",      #having all the functionalities
-    f"src/{project_name}/config/__int__.py",
+    f"src/{project_name}/config/__init__.py",
     f"src/{project_name}/config/configuration.py",
     f"src/{project_name}/pipeline/__init__.py",
     f"src/{project_name}/entity/__init__.py",
